@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Facebook Mobile</string>
+    <string name="action_settings">Configuración</string>
+    <string name="strButtonLogin">Conectar</string>
+
+    <string name="strLink"><u>¡Registrate en Facebook!</u></string>
+    <string name="strCorreo">Correo Electronico</string>
+    <string name="strPass">Contraseña</string>
+
+
+    <string name="MenuABOUT">Acerca de</string>
+    <string name="MenuOUT">Salir</string>
+
+    <string name="ActButtonGet">Get Information</string>
+    <string name="ActButtonAbout">About</string>
+
+</resources>

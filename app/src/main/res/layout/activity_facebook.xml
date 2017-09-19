@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fb"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Facebook" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:contentDescription="@null"
+        android:src="@drawable/fblogo" />
+
+    <EditText
+        android:id="@+id/caja"
+        style="@style/styleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/strCorreo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/styleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caja"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/strPass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/BO_about"
+        style="@style/styleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_animation"
+        android:onClick="conectar"
+        android:text="@string/strButtonLogin" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/styleLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BO_about"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/helpcenter_icon"
+        android:gravity="center"
+        android:text="@string/strLink" />
+
+</RelativeLayout>
